@@ -1,0 +1,324 @@
+/* Diseño por Agustin Gonzalez */
+
+html
+{
+	font-size: 20px;
+}
+	.elementoOculto
+	{
+	    display: none;
+	}
+	.elementoVisible
+	{
+	    display: inline;
+	}   
+	
+frameset 
+{
+	background-color: white;
+	/*background-image: url('http://dl.dropboxusercontent.com/u/15993589/HTML/Fondo.jpg');*/
+	background-image: url('/recursos/imagenes/Fondo.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center; 
+}    
+    
+frame
+{
+	height: auto;
+	width: auto;
+}
+
+body
+{
+	height: auto;
+	width: auto;
+}
+
+div 
+{
+	width: auto;
+	height: auto;
+}
+	#divEncabezado
+	{
+		margin-bottom: 10px;
+		margin-left: 5px;
+		margin-top: 10px;
+		text-align: center;
+		border: solid 2px black;
+	}
+	
+	#divMenu 
+	{    
+	    width: 95%; 
+	    height: auto;
+		border: solid 2px red;
+		border-radius: 10px;
+    }
+    
+    #divContenido
+    {
+    	background-color: #CCCCCC; 
+    	width: 98%; 
+    	min-height: 430px;
+    	max-width: 98%;
+    	height: auto;
+    	border: solid 2px blue;
+    	border-radius: 10px;
+    	/* overflow: scroll; */ 
+    }
+    
+    #divPie
+    {
+	    height: auto;
+	    min-height: 50px;  /* Imagen 31px + 10px margen*/
+	    clear: both;
+	    margin-top: 10px;
+	    border: solid 2px black;
+	    border-radius: 10px;
+    }
+    .divInterno
+    {
+		margin-top: 5px;
+    	margin-left: 30px;
+    	margin-right: 30px;
+    	margin-bottom: 10px;
+    	height: auto;
+    	width: auto;
+    	font-family: Arial Unicode MS;
+		font-style: normal;
+		font-size: 14px; 
+    }
+    div.flechas
+    {
+		margin-top: 5px;
+    	margin-left: 5px;
+    	margin-right: 5px;
+    	margin-bottom: 5px;
+    	height: auto;
+    	width: auto;
+    }
+
+h2
+{
+	text-align: center;
+	border: solid black;
+	color: black;
+	background-color: gainsboro;
+	
+}
+
+@font-face
+{
+	 font-family: "SegoePrint";
+	 /*src: url('http://dl.dropboxusercontent.com/u/15993589/HTML/segoepr.ttf');*/
+	 src: url('/recursos/fuentes/segoepr.ttf');
+}
+    	
+p 
+{
+	font-family: Arial Unicode MS;
+	font-style: normal;
+	color: black;
+	font-size: 12px; 
+	padding: 3px;
+}
+	p.titulo
+	{
+		text-align: center;
+		font-size: 18px; 
+		font-family: Tahoma;
+		color: blue;
+		border: solid black; /* Borde */
+		
+	}
+	p.contenido
+	{
+		font-size: 14px; 
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: justify;
+		text-indent: 50px; /* Margen Principal */
+	}
+	
+	p.miEstiloFavorito
+	{
+    	text-align: center;
+    	font-family: Tahoma;
+    	font-size: 18px;
+    	text-align: center;
+    	vertical-align: middle;
+    	border: solid 4px blue;
+   
+	}
+
+img
+{
+
+}
+
+	img.Contenido
+	{
+		border: 0;
+		margin-left: 30px; 
+		margin-right: 20px;
+		vertical-align: middle;
+	}
+	img.centrar
+	{
+		border-width: 0; 
+		vertical-align: middle;
+	}
+
+a
+{
+	 color: black;
+}
+	
+	a.enlaceLeerMas
+	{
+		border-style: none;
+	}
+	a.enlaceLeerMenos
+		border-style: none;
+	}
+	
+    a.enlaceEspecial
+    {
+	    border-style: dashed;
+		border-color: red;
+		border-width: 3px;
+		padding: 1px;	
+    }
+    
+table
+{
+	border: solid 2px black;
+}
+
+th
+{
+	border: solid 1px gray;
+}
+
+td.margenes
+{
+	margin: 15px;
+  	padding: 15px;
+  	text-align: justify;
+}
+
+input
+{
+	width: 200px;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #6699CC;
+    border: #000099;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+select
+{
+	width: 100px;
+	height: 24px;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #6699CC;
+    border: #000099;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;         
+}
+
+textarea
+{
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 12px;
+    border: #000099;
+    border-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;    
+    max-height: 350px;
+    min-height: 350px;
+    max-width: 650px;
+    min-width: 650px;    
+}
+
+
+td
+{
+	border: solid 1px #595959;
+}
+
+	td.celdaPlataforma
+	{
+		color: white;
+		font-weight: bold;
+		border-top: 1px	solid #000000; 
+		border-bottom: 1px solid #000000;
+		border-left: 1px solid #000000;
+		border-right: none; 
+		padding-top: 1px;
+		padding-bottom: 1px; 
+		padding-left: 1px;
+		padding-right: 0px;
+	}
+	
+	td.celdaNota
+	{
+		text-align: center;
+		background-color: #FFFF01;
+	}
+	
+ul
+{
+	
+}
+	#navMenu 
+	{  
+		list-style: none;
+		padding: 1px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	
+	#navMenu li 
+	{
+		margin: 2px;
+		padding: 2px;
+		border: 1px solid #CCCCCC;
+		width: auto;
+		
+	}
+	#navMenu li a
+	{
+		display: block;
+		width: auto;
+		padding: 4px 0;
+		text-decoration: none;
+		text-align: center;
+		font-size: 11px;
+		color: #FFFFFF;
+		background-color: #000000;
+	}
+
+	#navMenu li a:hover 
+	{
+		color: #99CC00;
+		background-color: #003366;
+	}	
+		
+/* Fin Diseño */   
+    
