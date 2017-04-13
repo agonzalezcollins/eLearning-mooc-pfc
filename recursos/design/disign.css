@@ -16,8 +16,7 @@ html
 frameset 
 {
 	background-color: white;
-	/*background-image: url('http://dl.dropboxusercontent.com/u/15993589/HTML/Fondo.jpg');*/
-	background-image: url('/recursos/imagenes/Fondo.jpg');
+	background-image: url('../imagenes/Fondo.jpg');
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-position: center; 
@@ -86,7 +85,7 @@ div
     	margin-bottom: 10px;
     	height: auto;
     	width: auto;
-    	font-family: Arial Unicode MS;
+		font-family: Arial Unicode MS, serif;
 		font-style: normal;
 		font-size: 14px; 
     }
@@ -181,6 +180,7 @@ a
 		border-style: none;
 	}
 	a.enlaceLeerMenos
+	{
 		border-style: none;
 	}
 	
