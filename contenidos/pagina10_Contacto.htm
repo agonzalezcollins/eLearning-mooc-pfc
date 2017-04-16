@@ -11,7 +11,7 @@
     
         <h2>Contacto</h2>
         
-		  <form name="formularioContacto" method="post">
+		  <form id="formularioContacto" name="formularioContacto" method="post">
 		  
 		  <p><strong>Nombre</strong> 
 		    <input name="textfieldNombre" type="text" id="nombre">
@@ -28,7 +28,11 @@
 		    <textarea name="textarea" cols="80" rows="20"></textarea>
 		  </p>
 		  <p> 
-		    <input name="Submit" type="submit" value="Enviar" onclick="mostrarMensaje(); return false;">
+		    <input name="Submit" type="submit" value="Enviar" onclick="
+				alert('Gracias por estar en contacto');
+				document.getElementById('formularioContacto').reset();
+				return false;
+			">
 		  </p>
 		</form>
 

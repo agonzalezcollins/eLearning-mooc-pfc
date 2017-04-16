@@ -80,8 +80,8 @@ div
     .divInterno
     {
 		margin-top: 5px;
-    	margin-left: 30px;
-    	margin-right: 30px;
+    	margin-left: 40px;
+    	margin-right: 40px;
     	margin-bottom: 10px;
     	height: auto;
     	width: auto;
@@ -111,7 +111,6 @@ h2
 @font-face
 {
 	 font-family: "SegoePrint";
-	 /*src: url('http://dl.dropboxusercontent.com/u/15993589/HTML/segoepr.ttf');*/
 	 src: url('/recursos/fuentes/segoepr.ttf');
 }
     	
@@ -127,7 +126,7 @@ p
 	{
 		text-align: center;
 		font-size: 18px; 
-		font-family: Tahoma;
+		font-family: SegoePrint;
 		color: blue;
 		border: solid black; /* Borde */
 		
@@ -149,7 +148,6 @@ p
     	text-align: center;
     	vertical-align: middle;
     	border: solid 4px blue;
-   
 	}
 
 img
@@ -188,7 +186,9 @@ a
     {
 	    border-style: dashed;
 		border-color: red;
-		border-width: 3px;
+		background-color: black;
+		color: white;
+		border-width: 1px;
 		padding: 1px;	
     }
     
@@ -314,7 +314,7 @@ ul
 		background-color: #000000;
 	}
 
-	#navMenu li a:hover 
+	#navMenu li a:hover
 	{
 		color: #99CC00;
 		background-color: #003366;
