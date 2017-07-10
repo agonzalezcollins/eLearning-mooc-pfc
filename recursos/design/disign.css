@@ -174,7 +174,6 @@ a
 {
 	 color: black;
 }
-	
 	a.enlaceLeerMas
 	{
 		border-style: none;
@@ -193,6 +192,28 @@ a
 		border-width: 1px;
 		padding: 1px;	
     }
+    a.flechaDerecha
+    {
+		display: inline-block;
+		position: absolute;
+		right: 3%;
+		width: 33px;
+		height: 33px;
+		z-index: 5;
+    }
+	a.flechaIzquierda
+	{
+		display: inline-block;
+		position: absolute;
+		width: 33px;
+		height: 33px;
+		z-index: 5;
+	}
+
+object
+{
+    z-index: 1;
+}
     
 table
 {
