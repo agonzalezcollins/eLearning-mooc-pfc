@@ -1,6 +1,7 @@
 // Java Script by Agustin Gonzalez
 
-function muestra(numero) {
+function muestra(numero)
+{
     var elemento = document.getElementById("elementoAdicional_" + numero);
     elemento.className = "elementoVisible";
 
@@ -9,7 +10,8 @@ function muestra(numero) {
     enlace.setAttribute("onclick", funcion);
 }
 
-function oculta(numero) {
+function oculta(numero)
+{
     var elemento = document.getElementById("elementoAdicional_"+ numero);
     elemento.className = "elementoOculto";
 

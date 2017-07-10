@@ -9,7 +9,7 @@ function mostrarMensaje()
 		var strResultado = nombre + " Su mensaje a sido enviado a: " + email;	
 		alert(strResultado);
 		document.getElementById('formularioContacto').reset();
-}
+	}
 	else{
 		var strResultado = email + " : E-mail Invalido o no a ingresado nombre";
 		alert(strResultado);
