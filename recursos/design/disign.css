@@ -17,17 +17,19 @@ html
 	
 frameset 
 {
-	background-color: white;
+	background-color: transparent;
 	background-image: url('../imagenes/Fondo.jpg');
 	background-repeat: repeat;
 	background-attachment: fixed;
-	background-position: center; 
+	background-position: center;
+
 }    
     
 frame
 {
 	height: auto;
 	width: auto;
+	background: transparent url('../imagenes/Fondo.jpg') repeat fixed center;
 }
 
 body
@@ -35,6 +37,11 @@ body
 	height: auto;
 	width: auto;
 }
+
+	body.menu
+	 {
+		 background: none;
+	 }
 
 div 
 {
@@ -56,6 +63,7 @@ div
 	    height: auto;
         font-family: 'Alegreya', serif;
         font-weight: 400;
+		background: none;
     }
     
     #divContenido
@@ -87,7 +95,7 @@ div
     	margin-bottom: 10px;
     	height: auto;
     	width: auto;
-		font-family: Arial Unicode MS, serif;
+		font-family: "Kurale", cursive, sans-serif;
 		font-style: normal;
 		font-size: 14px; 
     }
@@ -118,7 +126,7 @@ h2
     	
 p 
 {
-	font-family: 'Arial Unicode MS', serif;
+	font-family: "Kurale", serif;
 	font-style: normal;
 	color: black;
 	font-size: 12px; 
@@ -169,7 +177,10 @@ img
 		border-width: 0; 
 		vertical-align: middle;
 	}
-
+u
+{
+	text-decoration: underline;
+}
 a
 {
 	 color: black;
@@ -206,6 +217,7 @@ a
 		display: inline-block;
 		position: absolute;
 		width: 33px;
+		left: 1.5%;
 		height: 33px;
 		z-index: 5;
 	}
@@ -235,7 +247,7 @@ td.margenes
 input
 {
 	width: 200px;
-    font-family: Tahoma, Verdana, Arial;
+    font-family: Tahoma, Verdana, serif;
     font-size: 12px;
     color: #FFFFFF;
     background-color: #6699CC;
@@ -251,7 +263,7 @@ select
 {
 	width: 100px;
 	height: 24px;
-    font-family: Tahoma, Verdana, Arial;
+    font-family: Tahoma, Verdana, serif;
     font-size: 12px;
     color: #FFFFFF;
     background-color: #6699CC;
@@ -265,7 +277,7 @@ select
 
 textarea
 {
-    font-family: Tahoma, Verdana, Arial;
+    font-family: Tahoma, Verdana, serif;
     font-size: 12px;
     border: #000099;
     border-style: solid;
