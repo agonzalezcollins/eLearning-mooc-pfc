@@ -23,8 +23,10 @@ Requerimientos mínimos
 
 <u>__Autor:__</u> Agustín González (agustingc89@gmail.com)
 
-<u>__Docente:__</u> Hugo Minni (hminni4k@yahoo.com.ar)
+<u>__Docente Web:__</u> Hugo Minni (hminni4k@yahoo.com.ar)
 
-<u>__URL Sitio Web:__</u> https://agustingc89.github.io/eLearning-mooc-pfc/
+<u>__URL Sitio Web:__</u> https://agonzalezcollins.github.io/eLearning-mooc-pfc/
 
-<u>__PDF Monografía:__</u>
+<u>__Docente Monografia:__</u> Horacio Loyarte (hloyarte@gmail.com)
+
+<u>__PDF Monografía:__</u> https://drive.google.com/open?id=1ZPIoOsbktgCawmcbrIYFg1KeV8sR96gL
